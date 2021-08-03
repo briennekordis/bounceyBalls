@@ -1,0 +1,121 @@
+<div id="ball" style= '
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    background: blue;' ></div>
+
+<div id="ballB" style='
+    z-index: 5;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: cornflowerblue;'></div>
+
+<div id="ballC" style='
+    z-index: 5;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: darkgreen;'></div>
+
+<div id="ballD" style='
+    z-index: 5;
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: lightgreen;'></div>
+  
+
+<div id="square" style='
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 600px;
+    height: 600px;
+    border-radius: 0%;
+    background: black;' ></div>
+
+<script>
+
+var positionA = 0
+var velocityA = 1
+var positionB = 0
+var velocityB = 10
+var positionC = 0
+var velocityC = 5
+var positionD = 0
+var velocityD = 5
+var heightD = 200
+var positionE = 0
+var velocityE = 5
+var positionY = 0
+var velocityY = 5
+var positionU = 0
+var velocityU = 10 
+
+
+setInterval (function moveBall(){
+    positionA = positionA + velocityA;
+    ball.style.left = positionA + 'px';
+        if (positionA === 500 || positionA === 0)
+            velocityA = -1 * velocityA;
+}, velocityA)
+
+setInterval (function moveBallUp(){
+    positionY = positionY + velocityY;
+    ball.style.top = positionY + 'px';
+        if (positionY === 500 || positionY === 0)
+            velocityY = -1 * velocityY;
+}, velocityY)
+
+setInterval (function moveBallB(){
+    positionB = positionB + velocityB;
+    ballB.style.top = positionB + 'px';
+        if (positionB === 500 || positionB === 0)
+            velocityB = -1 * velocityB;
+}, velocityB)
+
+setInterval (function moveBallC(){
+    positionC = positionC + velocityC;
+    ballC.stye.left = positionC + 'px';
+    if (positionC === -500 || positionC === 100)
+        velocityC = -1 * velocityC
+}, velocityC) 
+
+setInterval (function moveBallCUp(){
+    positionU = positionU + velocityU;
+    ballC.style.top = positionU + 'px';
+        if (positionU === 500 || positionU === -100)
+            velocityU = -1 * velocityU;
+}, velocityU)
+
+setInterval (function moveBallD(){
+    positionD = positionD + velocityD;
+    ballD.style.top = positionD + 'px';
+        if (positionD === 500 || positionD === 0)
+            velocityD = -1 * velocityD
+}, velocityD)
+
+function growBallD(){
+    if (velocityD === -5)
+        ballD.style.height = heightD
+}
+growBallD (heightD + 'px');
+
+</script>
+
+
