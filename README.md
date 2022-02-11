@@ -2,10 +2,10 @@
 bouncyBalls
 
 ## Table of Contents
-- [Description & General Info]()
-- [Languages & Technologies]()
-- [Setup & Use]()
-- [Licensing Information]()
+- [Description & General Info](https://github.com/briennekordis/bounceyBalls#description--general-info)
+- [Languages & Technologies](https://github.com/briennekordis/bounceyBalls#languages--technologies)
+- [Setup & Use](https://github.com/briennekordis/bounceyBalls#setup--use)
+- [Licensing Information](https://github.com/briennekordis/bounceyBalls#licensing-information)
 
 ## Description & General Info
 This html codes creates multiple balls that "bounce" in a given area and was an assignment as part of the MITxPro web development course.
