@@ -1,11 +1,7 @@
-# bounceyballs
+## Description
 This html codes creates multiple balls that "bounce" in a given area and was an assignment as part of the MITxPro web development course.
 
-### Installation
-Drag and drop the html file into your brower (Google Chrome is recommended). 
-
-### Usage
-Once the file has been loaded onto the browser, then the balls will begin to bounce immediately without futher steps. 
-
-### Roadmap
-The goal of this project is to display visually pleasing balls of different colors that move within their designated box. 
+## Instructions for Use
+1. Download or clone the project repository
+2. Drag and drop the html file into your brower (Google Chrome is recommended). 
+3. Once the file has been loaded onto the browser, the balls will begin to bounce immediately without futher steps. 
