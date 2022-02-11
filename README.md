@@ -8,7 +8,7 @@ bouncyBalls
 - [Licensing Information](https://github.com/briennekordis/bounceyBalls#licensing-information)
 
 ## Description & General Info
-This html codes creates multiple balls that "bounce" in a given area and was an assignment as part of the MITxPro web development course.
+This project, which consists of script tags and styling within a single HTML file, creates multiple balls that "bounce" in a given area of the screen.
 
 ## Languages & Technologies
 - HTML
